@@ -1,169 +1,22 @@
 import Logo from "./img/logo-white.png";
-import ShapeOne from "./img/shape/01.png";
-import ShapeTwo from "./img/shape/02.png";
-import ShapeThree from "./img/shape/03.png";
-import ShapeFour from "./img/shape/04.png";
+
 import ShapeFive from "./img/shape/05.png";
 import ShapeSix from "./img/shape/06.png";
 import ShapeSeven from "./img/shape/07.png";
 import MobileImageTwo from "./img/mobile-img-2.png";
-import MobileImageFour from "./img/mobile-image-4.png";
 import HowItWorks from "./img/how-it-works-image.png";
 import TeamShapeDark from "./img/bg/team-shape-dark.png";
 import TeamMemberThree from "./img/team-member/03.jpg";
+import NavBar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header";
+import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 function App() {
   return (
     <div className="App">
-      <nav className="navbar navbar-area navbar-expand-lg nav-absolute white nav-style-01">
-        <div className="container nav-container">
-          <div className="responsive-mobile-menu">
-            <div className="logo-wrapper">
-              <a href="index.html" className="logo">
-                <img src={Logo} alt="logo" />
-              </a>
-            </div>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#appside_main_menu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div className="nav-right-content">
-            <ul>
-              <li className="button-wrapper">
-                <a href="google.com" className="boxed-btn btn-rounded">
-                  Use App
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <NavBar />
+      <Header />
+      <AboutUsSection />
 
-      <header className="header-area header-bg dark-home-2" id="home">
-        <div className="shape-1">
-          <img src={ShapeOne} alt="" />
-        </div>
-        <div className="shape-2">
-          <img src={ShapeTwo} alt="" />
-        </div>
-        <div className="shape-3">
-          <img src={ShapeThree} alt="" />
-        </div>
-        <div className="shape-4">
-          <img src={ShapeFour} alt="" />
-        </div>
-
-        <div className="header-right-image">
-          <img src={MobileImageFour} alt="header right" />
-        </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7">
-              <div className="header-inner">
-                <h1 className="title wow fadeInDown">
-                  Crypto accountability tool
-                </h1>
-                <p>
-                  Stay accountable for the things that matter by wagering
-                  ethereum.
-                </p>
-                <div className="btn-wrapper wow fadeInUp">
-                  <a href="google.com" className="boxed-btn btn-rounded">
-                    Use App
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section className="about-us-area style-two dark-bg">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="section-title left-aligned white">
-                <span className="subtitle">About Appside</span>
-                <h3 className="title extra">
-                  Bulit for everybody with unlimited unique features
-                </h3>
-                <p>
-                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolor tempor incididunt ut labore dolore magna.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="feature-area">
-                <ul className="feature-list">
-                  <li className="single-feature-list wow zoomIn white">
-                    <div className="icon icon-bg-1">
-                      <i className="flaticon-vector"></i>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href="google.com">Clean Design</a>
-                      </h4>
-                      <p>
-                        Consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolor tempor incididunt
-                      </p>
-                    </div>
-                  </li>
-                  <li className="single-feature-list wow zoomIn white">
-                    <div className="icon icon-bg-2">
-                      <i className="flaticon-responsive"></i>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href="google.com">Fully Respnosive</a>
-                      </h4>
-                      <p>
-                        Consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labor tempor incididunt
-                      </p>
-                    </div>
-                  </li>
-                  <li className="single-feature-list wow zoomIn white">
-                    <div className="icon icon-bg-3">
-                      <i className="flaticon-layers-2"></i>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href="google.com">Pixel Perfect</a>
-                      </h4>
-                      <p>
-                        Consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolor tempor incididunt
-                      </p>
-                    </div>
-                  </li>
-                  <li className="single-feature-list wow zoomIn white">
-                    <div className="icon icon-bg-4">
-                      <i className="flaticon-picture"></i>
-                    </div>
-                    <div className="content">
-                      <h4 className="title">
-                        <a href="google.com">Retina Ready</a>
-                      </h4>
-                      <p>
-                        Consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolor tempor incididunt
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="counterup-area dark-bg">
         <div className="container">
           <div className="row">
