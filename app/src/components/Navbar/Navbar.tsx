@@ -1,4 +1,5 @@
-import Logo from "../../img/logo-white.png";
+import { Logo } from "../images/images";
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-area navbar-expand-lg nav-absolute white nav-style-01">

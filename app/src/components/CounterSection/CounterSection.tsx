@@ -1,80 +1,50 @@
 const CounterSection = () => {
   return (
-    <section className="about-us-area style-two dark-bg">
+    <section className="counterup-area dark-bg">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
-            <div className="section-title left-aligned white">
-              <span className="subtitle">About Appside</span>
-              <h3 className="title extra">
-                Bulit for everybody with unlimited unique features
-              </h3>
-              <p>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolor tempor incididunt ut labore dolore magna.
-              </p>
+          <div className="col-lg-3 col-md-6">
+            <div className="single-counter-item white fadeInUp wow">
+              <div className="icon">
+                <i className="flaticon-rating"></i>
+              </div>
+              <div className="content">
+                <span className="count-num">14,567</span>
+                <h4 className="title">Positive Reviews</h4>
+              </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="feature-area">
-              <ul className="feature-list">
-                <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-1">
-                    <i className="flaticon-vector"></i>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Clean Design</a>
-                    </h4>
-                    <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
-                    </p>
-                  </div>
-                </li>
-                <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-2">
-                    <i className="flaticon-responsive"></i>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Fully Respnosive</a>
-                    </h4>
-                    <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labor tempor incididunt
-                    </p>
-                  </div>
-                </li>
-                <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-3">
-                    <i className="flaticon-layers-2"></i>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Pixel Perfect</a>
-                    </h4>
-                    <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
-                    </p>
-                  </div>
-                </li>
-                <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-4">
-                    <i className="flaticon-picture"></i>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Retina Ready</a>
-                    </h4>
-                    <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
-                    </p>
-                  </div>
-                </li>
-              </ul>
+          <div className="col-lg-3 col-md-6">
+            <div className="single-counter-item white fadeInUp wow">
+              <div className="icon">
+                <i className="flaticon-conversation-1"></i>
+              </div>
+              <div className="content">
+                <span className="count-num">567</span>
+                <h4 className="title">Good Comments</h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="single-counter-item white fadeInUp wow">
+              <div className="icon">
+                <i className="flaticon-email"></i>
+              </div>
+              <div className="content">
+                <span className="count-num">36,778</span>
+                <h4 className="title">App Downloads</h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-6">
+            <div className="single-counter-item white fadeInUp wow">
+              <div className="icon">
+                <i className="flaticon-trophy"></i>
+              </div>
+              <div className="content">
+                <span className="count-num">30</span>
+                <h4 className="title">Best Awards</h4>
+              </div>
             </div>
           </div>
         </div>
