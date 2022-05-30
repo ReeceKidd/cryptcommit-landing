@@ -5,13 +5,13 @@ const AboutUsSection = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="section-title left-aligned white">
-              <span className="subtitle">About Appside</span>
+              <span className="subtitle">About Crypto Accountability</span>
               <h3 className="title extra">
-                Bulit for everybody with unlimited unique features
+                Built for those who want to be held accountable
               </h3>
               <p>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolor tempor incididunt ut labore dolore magna.
+                If you don't do the things you want to do you lose your
+                ethereum.
               </p>
             </div>
           </div>

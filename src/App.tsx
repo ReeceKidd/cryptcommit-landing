@@ -1,4 +1,3 @@
-import NavBar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
 import CounterSection from "./components/CounterSection/CounterSection";
@@ -11,7 +10,6 @@ import BackToTop from "./components/BackToTop/BackToTop";
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <Header />
       <AboutUsSection />
       <CounterSection />

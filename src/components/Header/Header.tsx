@@ -26,12 +26,10 @@ const Header = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="header-inner">
-              <h1 className="title wow fadeInDown">
-                Crypto accountability tool
-              </h1>
+              <h1 className="title wow fadeInDown">Stay accountable</h1>
               <p>
-                Stay accountable for the things that matter by wagering
-                ethereum.
+                Wager ethereum with friends, foes and charities to make sure you
+                do the things you want to do.
               </p>
               <div className="btn-wrapper wow fadeInUp">
                 <a href="google.com" className="boxed-btn btn-rounded">
