@@ -32,7 +32,10 @@ const Header = () => {
                 do the things you want to do.
               </p>
               <div className="btn-wrapper wow fadeInUp">
-                <a href="google.com" className="boxed-btn btn-rounded">
+                <a
+                  href={process.env.REACT_APP_APP_URL}
+                  className="boxed-btn btn-rounded"
+                >
                   Use App
                 </a>
               </div>

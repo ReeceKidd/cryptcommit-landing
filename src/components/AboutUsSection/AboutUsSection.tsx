@@ -7,7 +7,7 @@ const AboutUsSection = () => {
             <div className="section-title left-aligned white">
               <span className="subtitle">About Crypto Accountability</span>
               <h3 className="title extra">
-                Built for those who want to be held accountable
+                Create crypto contracts to stay accountable
               </h3>
               <p>
                 If you don't do the things you want to do you lose your
