@@ -26,7 +26,9 @@ const Header = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="header-inner">
-              <h1 className="title wow fadeInDown">Stay accountable</h1>
+              <h1 className="title wow fadeInDown">
+                Create contracts to stay accountable
+              </h1>
               <p>
                 Wager ethereum with friends, foes and charities to make sure you
                 do the things you want to do.
