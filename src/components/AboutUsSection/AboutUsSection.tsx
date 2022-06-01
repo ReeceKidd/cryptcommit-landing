@@ -19,58 +19,36 @@ const AboutUsSection = () => {
             <div className="feature-area">
               <ul className="feature-list">
                 <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-1">
-                    <i className="flaticon-vector"></i>
-                  </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Clean Design</a>
-                    </h4>
+                    <h4 style={{ color: "white" }}>Bet friends</h4>
                     <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
+                      You don't want your friends to get your eth because you
+                      smoked a cigarette?
                     </p>
                   </div>
                 </li>
                 <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-2">
-                    <i className="flaticon-responsive"></i>
-                  </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Fully Respnosive</a>
-                    </h4>
+                    <h4 style={{ color: "white" }}>Use your enemies</h4>
                     <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labor tempor incididunt
+                      The only thing worse than losing eth to friends is eth to
+                      enemies. Use your enemies to stay on track.
                     </p>
                   </div>
                 </li>
                 <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-3">
-                    <i className="flaticon-layers-2"></i>
-                  </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Pixel Perfect</a>
-                    </h4>
+                    <h4 style={{ color: "white" }}>All alone?</h4>
                     <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
+                      You can use us. Help us keep the lights on if you mess up.
                     </p>
                   </div>
                 </li>
                 <li className="single-feature-list wow zoomIn white">
-                  <div className="icon icon-bg-4">
-                    <i className="flaticon-picture"></i>
-                  </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="google.com">Retina Ready</a>
-                    </h4>
+                    <h4 style={{ color: "white" }}>Support charities</h4>
                     <p>
-                      Consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolor tempor incididunt
+                      If you mess up at least the money goes to a good cause.
                     </p>
                   </div>
                 </li>

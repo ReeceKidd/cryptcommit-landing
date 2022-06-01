@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header";
 import AboutUsSection from "./components/AboutUsSection/AboutUsSection";
-import CounterSection from "./components/CounterSection/CounterSection";
 import WhyChooseUsSection from "./components/WhyChooseUsSection/WhyChooseUsSection";
 import HowItWorksSection from "./components/HowItWorksSection/HowItWorksSection";
 import TeamMemberSection from "./components/TeamMemberSection/TeamMemberSection";
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
       <Header />
       <AboutUsSection />
-      <CounterSection />
       <WhyChooseUsSection />
       <HowItWorksSection />
       <TeamMemberSection />

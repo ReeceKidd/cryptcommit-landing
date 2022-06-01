@@ -10,13 +10,14 @@ const WhyChooseUsSection = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="section-title white">
-              <span className="subtitle">why choose this</span>
+              <span className="subtitle">why choose cryptcommit?</span>
               <h3 className="title extra">
-                Users love appside to make cool landing page
+                Because putting ETH on the line is one of the best ways to stay
+                motivated.
               </h3>
               <p>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolor tempor incididunt ut labore dolore magna.
+                You will have consequences for skipping the things you want to
+                do.
               </p>
             </div>
           </div>
